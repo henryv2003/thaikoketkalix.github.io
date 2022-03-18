@@ -125,9 +125,12 @@ section{
     text-transform: capitalize;
 }
 
-.section-title h2 p {
+.section-title p {
     font-size: 14px;
     font-style: italic;
+    list-style: none;
+    font-weight: 500;
+    
 }
 
 .section-title h2::before{
@@ -559,6 +562,11 @@ buffe section
     padding-top: 30px;
 }
 
+#carousel2 {
+    flex-basis: 45%;
+    padding-top: 30px;
+}
+
 .carousel-item img {
     width: 100%;
     padding-bottom: 3rem;
@@ -830,6 +838,19 @@ responsive
         padding-top: 0;
         width: 100%
     }
+
+    .menu-item-title h3{
+        font-size: 18px; 
+    }
+    
+    
+    .menu-item-title h3 span{
+        font-size: 14px;
+    }
+
+    .menu-item-price {
+        font-size: 14px;
+    }
     
     .footer-item{
         width: 100%;
@@ -847,7 +868,7 @@ responsive
         padding: 0;
         margin-left: 3%;
     }
-}
+
 
 .gallery-section .gallery-images{
     display: block;
@@ -868,6 +889,7 @@ responsive
     border: 2px solid rgb(203, 154, 41);
     border-radius: 10px;
     margin: 5px;
+}
 }
 
 @media(max-width:575px){
