@@ -794,7 +794,7 @@ footer end
 /*-------------------------
 responsive
 --------------------------*/
-@media(max-width:802px){
+@media(max-width:820px){
     .about-text h3 {
       margin: 0 0 15px 12%;
         
