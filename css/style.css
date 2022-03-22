@@ -810,6 +810,10 @@ responsive
     width: 100%;   
 }
 
+.about-text p{
+    margin: 0 15px 15px 15px;
+}
+
 .about-img img {
     max-height: 85%;
     border-radius: 10px;
@@ -824,6 +828,22 @@ responsive
 .section-title {
     margin-bottom: 10px;
 }
+
+#carousel {
+    padding-top: 146px;
+}
+
+#carousel2 {
+    padding-top: 146px;
+}
+
+.gallery-section .gallery-images img{
+    width: 30%;
+    height: 40%;
+}
+
+
+
 }
 
 @media(max-width:768px){
@@ -883,6 +903,12 @@ responsive
         padding-top: 0;
         width: 100%
     }
+
+    .carousel-item img {
+        padding-left: 0%;
+    }
+
+    
 
     .menu-item-title h3{
         font-size: 18px; 
