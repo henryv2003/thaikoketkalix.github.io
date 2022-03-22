@@ -104,7 +104,7 @@ ul{
 }
 
 .sec-padding{ 
-    padding: 80px 0;
+    padding: 30px 0;
 }
 
 section{
@@ -265,6 +265,7 @@ header
     display: flex;
     align-items: center;
     padding: 0;
+    margin-left: -5%;
 }
 
 .header .logo img{
@@ -275,7 +276,7 @@ header
 .header .nav-toggler{
     height: 34px;
     width: 55px;
-    margin-right: 1px;
+    margin-right: -5%;
     cursor: pointer;
     border: none;
     background-color: transparent;
@@ -401,7 +402,7 @@ header end
     background-size: cover;
     background-position: center;
     z-index: -2;
-    animation: zoomInOut 20s ease infinite;
+    animation: zoomInOut 13s ease infinite;
 }
 
 .home-section .min-vh-100{
@@ -418,7 +419,7 @@ header end
 }
 
 .home-text h1{
-    font-family:  'Kaushan Script', cursive;;
+    font-family:  'Kaushan Script', cursive;
     font-size: 8rem;
     margin: 0 0 5px;
 }
@@ -438,7 +439,7 @@ about section
 .about-text,
 .about-img{
     width: 50%;
-    padding: 0 15px; 
+    padding: 0; 
 }
 
 .about-text h3{
@@ -457,9 +458,9 @@ about section
 }
 
 .about-img img{
-    max-height: 82%;
+    max-height: 74%;
     border-radius: 10px;
-    margin-top: 15px;
+    margin-top: 50px;
     margin-left: 10%;
 }
 
@@ -476,14 +477,14 @@ buffe section
 ------------------------*/
 .buffe-section{
     background-color: var(--dark);
-    padding-bottom: 60px;
+    padding-bottom: 120px;
 }
 
 .buffe-tabs{
     padding: 0  15px;
     width: 100%;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .buffe-tab-item{
@@ -492,7 +493,7 @@ buffe section
     text-transform: capitalize;
     border: none;
     background-color: transparent;
-    font-weight: 500;
+    font-weight: 100;
     color: var(--white);
     cursor: pointer;
     margin: 0 10px 10px;
@@ -518,7 +519,7 @@ buffe section
 }
 
 #buffe-section .section-title{
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 #buffe-section .section-title h2{
@@ -553,27 +554,32 @@ buffe section
 }
 
 .section-features hr{
-    margin: 0;
+    margin: 2px;
 }
 
 #carousel {
-    flex-basis: 45%;
-    padding-top: 30px;
+    flex-basis: 42%;
+    padding-top: 46px;
 }
 
 #carousel2 {
-    flex-basis: 45%;
-    padding-top: 30px;
+    flex-basis: 42%;
+    padding-top: 46px;
 }
 
 .carousel-item img {
     width: 100%;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 20%;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
     background-color: #ba3419;
     width: 50%;
+    display: none;
+}
+
+.carousel-indicators {
     display: none;
 }
 /*-----------------------
@@ -587,7 +593,7 @@ menu section
 -----------------------*/
 .meny-section{
     background-color: var(--dark);
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 .meny-section .section-title{
