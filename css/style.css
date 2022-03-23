@@ -899,8 +899,8 @@ responsive
 
 /*-----gallery section-----*/
 .gallery-section .gallery-images img{
-    width: 30%;
-    height: 40%;
+    width: 23%;
+    height: 18%;
 }
 /*------gallery section end---*/
 
@@ -1009,11 +1009,11 @@ responsive
 }
 
 .gallery-section .gallery-images img{
-    width: 30%;
-    height: 25%;
+    width: 22%;
+    height: 18%;
     border: 2px solid rgb(203, 154, 41);
     border-radius: 10px;
-    margin: 5px;
+    margin: 2px;
 }
 /*-----gallery section end----*/
 
