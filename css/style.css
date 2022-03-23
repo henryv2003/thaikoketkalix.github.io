@@ -72,6 +72,7 @@ ul{
  h6{
      font-weight: 500;
      color: var(--white);
+     font-family: var(--cursive-font);
  }
 
  p{
@@ -122,6 +123,8 @@ section{
 .section-title h2{
     font-size: 35px;
     text-transform: capitalize;
+    font-family: var(--cursive-font);
+    color: var(--main-color);
 }
 
 .section-title p {
@@ -138,8 +141,8 @@ section{
     content: attr(data-title);
     display: block;
     font-size: 24px;
-    color: var(--main-color);
-    font-family: var(--cursive-font);
+    color: #fff;
+    font-family: 'Poppins';
     font-weight: 400;
     text-transform: capitalize;
 
@@ -438,6 +441,10 @@ about section
     background-color: var(--dark);
 }
 
+.about-section .section-title h2{
+    margin-top: 60px;
+}
+
 .about-text,
 .about-img{
     width: 50%;
@@ -447,8 +454,8 @@ about section
 .about-text h3{
     font-size:30px;
     text-transform: capitalize;
-    margin: 0 0 15px 8%;
-    text-decoration: underline;
+    margin: 0 0 15px 40%;
+    color: var(--main-color);
 }
 
 .about-text p{
@@ -712,7 +719,7 @@ menu section
 
 .gallery-section .gallery-images{
     width: 100%;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .gallery-section .gallery-images img{
@@ -856,6 +863,9 @@ responsive
 
 @media(max-width:768px){
 /*-----about section------*/
+.about-section .section-title h2{
+    margin-top: 15px;
+}
     .about-text h3 {
       margin: 0 0 15px 12%;
         
@@ -898,6 +908,11 @@ responsive
 /*-----buffe section end-----*/
 
 /*-----gallery section-----*/
+.gallery-section .gallery-images{
+    
+    margin-top: 10px;
+}
+
 .gallery-section .gallery-images img{
     width: 23%;
     height: 18%;
@@ -935,6 +950,9 @@ responsive
     }
 
 /*-----about section----*/
+    .about-section .section-title h2{
+        margin-top: 1px;
+}
     .about-img{
         margin-top: 0px;
     }
