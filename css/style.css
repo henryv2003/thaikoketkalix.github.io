@@ -1009,8 +1009,8 @@ responsive
 }
 
 .gallery-section .gallery-images img{
-    width: 88%;
-    height: 88%;
+    width: 30%;
+    height: 25%;
     border: 2px solid rgb(203, 154, 41);
     border-radius: 10px;
     margin: 5px;
