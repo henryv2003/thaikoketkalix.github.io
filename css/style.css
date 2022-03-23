@@ -819,13 +819,13 @@ responsive
 
 /*------about section-------*/
 .about-text p{
-    margin: 0 0px 15px 15px;
+    margin: 0 0px 1px 15px;
 }
 
 .about-img img {
-    max-height: 70%;
-    margin-top: 62px;
-    margin-left: 1%;
+    max-height: 68%;
+    margin-top: 90px;
+    margin-left: 3%;
 }
 
 .about-text h3 {
@@ -854,7 +854,7 @@ responsive
 /*------buffe section end------*/
 
 
-@media(max-width:820px){
+@media(max-width:768px){
 /*-----about section------*/
     .about-text h3 {
       margin: 0 0 15px 12%;
@@ -907,7 +907,7 @@ responsive
 }
 
 
-@media(max-width:768px){
+@media(max-width:520px){
 /*----home section----*/    
     .home-text h1{
     font-size: 50px;
