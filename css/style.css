@@ -73,6 +73,7 @@ ul{
      font-weight: 500;
      color: var(--white);
      font-family: var(--cursive-font);
+     
  }
 
  p{
@@ -105,7 +106,7 @@ ul{
 }
 
 .sec-padding{ 
-    padding: 30px 0;
+    padding: 30px 12px;
 }
 
 section{
@@ -121,7 +122,7 @@ section{
 }
 
 .section-title h2{
-    font-size: 35px;
+    font-size: 50px;
     text-transform: capitalize;
     font-family: var(--cursive-font);
     color: var(--main-color);
@@ -140,7 +141,7 @@ section{
 .section-title h2::before{
     content: attr(data-title);
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
     font-family: 'Poppins';
     font-weight: 400;
@@ -291,7 +292,7 @@ header
 }
 .header .nav-toggler.active{
     position: absolute;
-    right: 80px;
+    right: 6.5%;
     z-index: 1;
     transition: all 0.5s ease;
     transform: translateX(-200px);
@@ -454,7 +455,9 @@ about section
 .about-text h3{
     font-size:30px;
     text-transform: capitalize;
-    margin: 0 0 15px 40%;
+    margin: 0 0 15px;
+    display: flex;
+    justify-content: center;
     color: var(--main-color);
 }
 
@@ -617,7 +620,7 @@ menu section
 }
 
 .meny-tab-item{
-    font-size: 18px;
+    font-size: 15px;
     font-family: inherit;
     text-transform: capitalize;
     border: none;
@@ -672,7 +675,7 @@ menu section
 }
 
 .menu-item-title h3{
-    font-size: 20px;
+    font-size: 25px;
     text-transform: capitalize;
     transition: color 0.3s ease;    
 }
@@ -682,7 +685,7 @@ menu section
 }
 
 .menu-item-title h3 span{
-    font-size: 16px;
+    font-size: 14px;
     text-transform: none;
     font-weight: 100;
     letter-spacing: 1px;
@@ -766,7 +769,7 @@ footer
 
 .footer-item h3{
     text-transform: capitalize;
-    font-size: 22px;
+    font-size: 30px;
     margin: 0 0 15px;
 }
 
@@ -866,11 +869,6 @@ responsive
 .about-section .section-title h2{
     margin-top: 15px;
 }
-    .about-text h3 {
-      margin: 0 0 15px 12%;
-        
-    }
-
     .about-text, .about-img {
     width: 100%;   
 }
@@ -939,6 +937,15 @@ responsive
         height: 30px;
     }
 
+    .header .nav{
+        position: fixed;
+        right: -23%;
+    }
+
+    .header .nav-toggler.active {
+        right: -52px;
+    }
+
     .menu-item,
     .about-text,
     .about-img{
@@ -948,6 +955,11 @@ responsive
     .section-title{
         margin-bottom: 10px;
     }
+
+    .section-title h2 {
+    font-size: 21px;
+    }
+
 
 /*-----about section----*/
     .about-section .section-title h2{
@@ -979,6 +991,15 @@ responsive
         margin-bottom: 10px;
     }
 
+    .list-group .list-group-item{
+        color: #ffffff;
+        text-decoration: none;
+        background-color: #921a0231;
+        letter-spacing: 1px;  
+        font-size:12px;  
+        padding: 3px 15px;
+    }
+
     #carousel {
         flex-basis: 100%;
         padding-top: 0;
@@ -1002,11 +1023,11 @@ responsive
     }
 
     .menu-item-title h3{
-        font-size: 18px; 
+        font-size: 24px; 
     }
     
     .menu-item-title h3 span{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .menu-item-price {
