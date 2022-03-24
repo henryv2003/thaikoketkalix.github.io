@@ -621,7 +621,7 @@ menu section
 }
 
 .meny-tab-item{
-    font-size: 15px;
+    font-size: 16px;
     font-family: inherit;
     text-transform: capitalize;
     border: none;
@@ -1003,7 +1003,7 @@ responsive
         text-decoration: none;
         background-color: #921a0231;
         letter-spacing: 1px;  
-        font-size:12px;  
+        font-size:10px;  
         padding: 3px 15px;
     }
 
@@ -1032,13 +1032,16 @@ responsive
     .menu-item-title h3{
         font-size: 24px; 
     }
+
+    .meny-tab-item {
+        font-size: 12px;
     
     .menu-item-title h3 span{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .menu-item-price {
-        font-size: 14px;
+        font-size: 1px;
     }
 /*----menu section end----*/
     
