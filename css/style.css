@@ -733,6 +733,12 @@ menu section
     border-radius: 10px;
     margin: 5px;
 }
+
+.lb-data .lb-caption {
+    font-family: 'Font Awesome 5 Brands';
+}
+
+
 /*----------------------
 gallery end
 ----------------------*/
