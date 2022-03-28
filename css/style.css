@@ -78,7 +78,7 @@ ul{
 
  p{
    font-size: 16px;
-   letter-spacing: 1px;
+   
  }
 .container{
     max-width: 1370px;
@@ -621,7 +621,7 @@ menu section
 }
 
 .meny-tab-item{
-    font-size: 16px;
+    font-size: 15px;
     font-family: inherit;
     text-transform: capitalize;
     border: none;
@@ -733,12 +733,6 @@ menu section
     border-radius: 10px;
     margin: 5px;
 }
-
-.lb-data .lb-caption {
-    font-family: 'Font Awesome 5 Brands';
-}
-
-
 /*----------------------
 gallery end
 ----------------------*/
@@ -991,12 +985,6 @@ responsive
         margin: 0 0 10px 0;
         text-align: center;
     }
-
-    .about-text p {
-        font-size: 10px;
-    }
-
-
 /*----about section end---*/
 
 /*----buffe section----*/
@@ -1009,7 +997,7 @@ responsive
         text-decoration: none;
         background-color: #921a0231;
         letter-spacing: 1px;  
-        font-size:10px;  
+        font-size:12px;  
         padding: 3px 15px;
     }
 
@@ -1038,16 +1026,13 @@ responsive
     .menu-item-title h3{
         font-size: 24px; 
     }
-
-    .meny-tab-item {
-        font-size: 12px;
     
     .menu-item-title h3 span{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .menu-item-price {
-        font-size: 1px;
+        font-size: 14px;
     }
 /*----menu section end----*/
     
