@@ -979,11 +979,19 @@ responsive
     .about-text .btn{
         margin: 0;
     }
-    
+
+    .btn {
+        padding: 5px 9px;
+        font-weight: 100;
+        font-size: 8px;
+    }
+
     .about-text h3{
-        font-size: 23px;
-        margin: 0 0 10px 0;
-        text-align: center;
+        font-size: 30px;
+    }
+
+    .about-text p {
+        font-size: 11px;
     }
 /*----about section end---*/
 
@@ -1032,7 +1040,7 @@ responsive
     }
 
     .menu-item-price {
-        font-size: 14px;
+        font-size: 13px;
     }
 /*----menu section end----*/
     
