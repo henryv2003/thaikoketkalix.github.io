@@ -1075,3 +1075,7 @@ responsive
 }
 /*----footer section end----*/
 }
+
+.counter {
+    color: transparent;
+}
