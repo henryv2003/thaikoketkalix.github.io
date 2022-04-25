@@ -811,18 +811,9 @@ footer end
 
 
 
-/*-----desserts.html--------*/
-.dessert-img {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-}
-
-
-/*-------------------------
+/*--------
 responsive
---------------------------*/
+---------*/
 
 @media(max-width:1280px){
 /*--------header--------*/
@@ -1003,7 +994,7 @@ responsive
     .about-text p {
         font-size: 11px;
     }
-/*----about section end---*/
+
 
 /*----buffe section----*/
     .buffe-tabs {
@@ -1034,7 +1025,7 @@ responsive
     .carousel-item img {
         padding-left: 0%;
     }
-/*-----buffe section end----*/
+
 
 /*-----menu section-----*/
     .menu-item:nth-last-of-type(2)::after{
@@ -1052,7 +1043,7 @@ responsive
     .menu-item-price {
         font-size: 13px;
     }
-/*----menu section end----*/
+
     
 /*-----gallery section----*/
 .gallery-section .gallery-images{
@@ -1073,7 +1064,6 @@ responsive
     border-radius: 10px;
     margin: 2px;
 }
-/*-----gallery section end----*/
 
 /*----footer section----*/
 .footer-item{
