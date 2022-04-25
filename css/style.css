@@ -232,7 +232,7 @@ page loader
     background-color: var(--main-color);
     left: calc(50% - 50px);
     top: calc(50% - 2px);
-    animation: pageLoader 0.3s linear infinite;
+    animation: pageLoader 1s linear infinite;
 }
 
 
