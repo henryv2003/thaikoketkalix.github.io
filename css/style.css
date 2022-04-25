@@ -217,7 +217,7 @@ page loader
     width: 100%;
     background-color: var(--dark);
     z-index: 999;
-    transition: all 0.9s ease;
+    transition: all 1s ease;
 }
 
 .page-loader.fade-out{
