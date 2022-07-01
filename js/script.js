@@ -38,7 +38,8 @@ window.addEventListener("scroll", function(){
 });
 
 
-/*---------------------- buffe tabs ------------------------------*/
+/*---------------------- buffe tabs ------------------------------
+
 const menuTabs = document.querySelector(".buffe-tabs");
 menuTabs.addEventListener("click", function(e){
    if(e.target.classList.contains("buffe-tab-item") && !e.target.classList.contains("active")){
@@ -54,6 +55,8 @@ menuTabs.addEventListener("click", function(e){
 }) 
 
 /*----------------------  menu tabs------------------------------*/
+
+
 
 const menuTabs1 = document.querySelector(".meny-tabs");
 menuTabs1.addEventListener("click", function(e){
