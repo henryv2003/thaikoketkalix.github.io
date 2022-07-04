@@ -38,7 +38,7 @@ window.addEventListener("scroll", function(){
 });
 
 
-/*---------------------- buffe tabs ------------------------------
+/*---------------------- buffe tabs ------------------------------*/
 
 const menuTabs = document.querySelector(".buffe-tabs");
 menuTabs.addEventListener("click", function(e){
