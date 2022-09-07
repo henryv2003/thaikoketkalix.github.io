@@ -67,4 +67,3 @@ menuTabs1.addEventListener("click", function(e){
       
    }
 }) 
-
