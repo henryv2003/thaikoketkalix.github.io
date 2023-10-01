@@ -1,15 +1,33 @@
 
 window.addEventListener("load", function(){
- /*------------ page loader -------------------------*/
- document.querySelector(".page-loader").classList.add("fade-out");
- setTimeout(function(){
+/*---page loader---*/
+document.querySelector(".page-loader").classList.add("fade-out");
+setTimeout(function(){
     document.querySelector(".page-loader").style.display="none";
- },600);
- /*------------ Animation on this scroll ------------*/
- AOS.init();
+},600);
+/*---Animation on this scroll---*/
+AOS.init();
 })
 
-/*----------------------toggle navbar---------------------*/
+/*---toast Notification---*/
+const toasts = new Toasts({
+    offsetX:20,
+    offsetY:20,
+    gap:20,
+    width:300,
+    timing:'ease',
+    duration:'.5s',
+    dimOld: false,
+    position: 'top-right'
+});
+
+toasts.push({
+    title: 'SPECIELL NOTIS!',
+    content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo sed fugiat maiores alias!',
+    style:'success',
+});
+
+/*---toggle navbar---*/
 const navToggler = document.querySelector(".nav-toggler");
 navToggler.addEventListener("click", toggleNav);
 
@@ -18,52 +36,50 @@ function toggleNav(){
     document.querySelector(".nav").classList.toggle("open");
 }
 
-/*----------- close nav when clicking item------------------*/
+/*---close nav when clicking item---*/
 document.addEventListener("click", function(e){
-      if(e.target.closest(".nav-item")){
-          toggleNav();
-      }
+    if(e.target.closest(".nav-item")){
+        toggleNav();
+    }
 
 });
 
-/*----------------------sticky header------------------------*/
+/*---sticky header---*/
 window.addEventListener("scroll", function(){
-   if(this.pageYOffset < 60){
-       document.querySelector(".header").classList.add("sticky");
+    if(this.pageYOffset < 60){
+        document.querySelector(".header").classList.add("sticky");
 
-   }
-   else{
+    }
+    else{
     document.querySelector(".header").classList.remove("sticky");
-   }
+    }
 });
 
 
-/*---------------------- buffe tabs ------------------------------*/
+/*---buffe tabs---*/
 const menuTabs = document.querySelector(".buffe-tabs");
 menuTabs.addEventListener("click", function(e){
-   if(e.target.classList.contains("buffe-tab-item") && !e.target.classList.contains("active")){
-       const target = e.target.getAttribute("data-target");
-       menuTabs.querySelector(".active").classList.remove("active");
-       e.target.classList.add("active");
-       const menuSection = document.querySelector(".buffe-section");
-       menuSection.querySelector(".buffe-tab-content.active").classList.remove("active");
-       menuSection.querySelector(target).classList.add("active");
-       // animation on scroll
-       AOS.init();
-   }
+    if(e.target.classList.contains("buffe-tab-item") && !e.target.classList.contains("active")){
+        const target = e.target.getAttribute("data-target");
+        menuTabs.querySelector(".active").classList.remove("active");
+        e.target.classList.add("active");
+        const menuSection = document.querySelector(".buffe-section");
+        menuSection.querySelector(".buffe-tab-content.active").classList.remove("active");
+        menuSection.querySelector(target).classList.add("active");
+    // animation on scroll
+        AOS.init();
+    }
 }) 
 
-/*----------------------  menu tabs------------------------------*/
-
+/*---menu tabs---*/
 const menuTabs1 = document.querySelector(".meny-tabs");
 menuTabs1.addEventListener("click", function(e){
-   if(e.target.classList.contains("meny-tab-item") && !e.target.classList.contains("active")){
-       const target = e.target.getAttribute("data-target");
-       menuTabs1.querySelector(".active").classList.remove("active");
-       e.target.classList.add("active");
-       const menuSection = document.querySelector(".meny-section");
-       menuSection.querySelector(".meny-tab-content.active").classList.remove("active");
-       menuSection.querySelector(target).classList.add("active");
-      
-   }
-}) 
+    if(e.target.classList.contains("meny-tab-item") && !e.target.classList.contains("active")){
+        const target = e.target.getAttribute("data-target");
+        menuTabs1.querySelector(".active").classList.remove("active");
+        e.target.classList.add("active");
+        const menuSection = document.querySelector(".meny-section");
+        menuSection.querySelector(".meny-tab-content.active").classList.remove("active");
+        menuSection.querySelector(target).classList.add("active");
+    }
+})
