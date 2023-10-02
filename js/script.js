@@ -1,15 +1,17 @@
 
+// PAGE LOADER
 window.addEventListener("load", function(){
-/*---page loader---*/
+
 document.querySelector(".page-loader").classList.add("fade-out");
 setTimeout(function(){
     document.querySelector(".page-loader").style.display="none";
 },600);
-/*---Animation on this scroll---*/
+
+// ANIMATION ON SCROLL
 AOS.init();
 })
 
-/*---toast Notification---*/
+// TOAST NOTIFICATION
 const toasts = new Toasts({
     offsetX:20,
     offsetY:20,
@@ -21,13 +23,13 @@ const toasts = new Toasts({
     position: 'top-right'
 });
 
-toasts.push({
+/* toasts.push({
     title: 'SPECIELL NOTIS!',
     content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo sed fugiat maiores alias!',
     style:'success',
-});
+}); */
 
-/*---toggle navbar---*/
+// TOGGLE NAVBAR
 const navToggler = document.querySelector(".nav-toggler");
 navToggler.addEventListener("click", toggleNav);
 
@@ -36,7 +38,7 @@ function toggleNav(){
     document.querySelector(".nav").classList.toggle("open");
 }
 
-/*---close nav when clicking item---*/
+// CLOSE NAV WHEN CLICKING ITEM
 document.addEventListener("click", function(e){
     if(e.target.closest(".nav-item")){
         toggleNav();
@@ -44,7 +46,7 @@ document.addEventListener("click", function(e){
 
 });
 
-/*---sticky header---*/
+// STICKY HEADER
 window.addEventListener("scroll", function(){
     if(this.pageYOffset < 60){
         document.querySelector(".header").classList.add("sticky");
@@ -56,7 +58,7 @@ window.addEventListener("scroll", function(){
 });
 
 
-/*---buffe tabs---*/
+// BUFFE TABS
 const menuTabs = document.querySelector(".buffe-tabs");
 menuTabs.addEventListener("click", function(e){
     if(e.target.classList.contains("buffe-tab-item") && !e.target.classList.contains("active")){
@@ -71,7 +73,7 @@ menuTabs.addEventListener("click", function(e){
     }
 }) 
 
-/*---menu tabs---*/
+// MENU TABS
 const menuTabs1 = document.querySelector(".meny-tabs");
 menuTabs1.addEventListener("click", function(e){
     if(e.target.classList.contains("meny-tab-item") && !e.target.classList.contains("active")){
