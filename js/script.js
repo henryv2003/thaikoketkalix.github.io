@@ -25,7 +25,7 @@ const toasts = new Toasts({
 
 /* toasts.push({
     title: 'SPECIELL NOTIS!',
-    content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo sed fugiat maiores alias!',
+    content: 'Thaiköket har stängt lördagen den 7 oktober!',
     style:'success',
 }); */
 
