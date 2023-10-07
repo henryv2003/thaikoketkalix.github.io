@@ -23,11 +23,11 @@ const toasts = new Toasts({
     position: 'top-right'
 });
 
-/* toasts.push({
+toasts.push({
     title: 'SPECIELL NOTIS!',
-    content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo sed fugiat maiores alias!',
+    content: 'Thaiköket har stängt lördagen den 7 Oktober!',
     style:'success',
-}); */
+});
 
 // TOGGLE NAVBAR
 const navToggler = document.querySelector(".nav-toggler");
