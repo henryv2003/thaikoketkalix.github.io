@@ -26,8 +26,8 @@ const toasts = new Toasts({
 
 // FUNCTION TO ENABLE OR DISABLE PUSH NOTIFICATION
 toasts.push({
-    title: 'SPECIELL NOTIS!',
-    content: 'Thaiköket har stängt lördagen den 7 oktober!',
+    title: 'Öppettider december-februari!',
+    content: 'V.50 Ordinarie öppentider, V.51 Måndag-Onsdag Ordinarie öppentider, Torsdag 21 dec Lunchöppet 10.00-13.30, Fredag-Lördag stängt, V.52 Mån-Tis stängt, Onsdag-lördag ordinarie öppentider, Semesterstängt Hela januari 2024, Öppnar åter 8 februari',
     style:'success',
 });
 
