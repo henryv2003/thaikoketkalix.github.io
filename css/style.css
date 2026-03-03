@@ -391,6 +391,37 @@ li
 a:hover{
     color: var(--main-color);
 }
+
+/* Language switcher */
+.lang-switcher {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.lang-btn {
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    color: var(--white);
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+}
+
+.lang-btn:hover {
+    background-color: var(--main-color);
+    color: var(--dark);
+}
+
+.lang-btn.active {
+    background-color: var(--main-color);
+    color: var(--dark);
+}
+
 /*---header end---*/
 
 
@@ -1300,4 +1331,15 @@ text-align: center;
     opacity: 1;
   }
 
+  /* Responsive language buttons */
+  .lang-switcher {
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 15px;
+  }
 
+  .lang-btn {
+    padding: 8px 15px;
+    font-size: 13px;
+  }
+}
